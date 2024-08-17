@@ -1,0 +1,125 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Upper part from Header till the first signup button */
+.colour{
+    background: #1f2937;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: #3882f6;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1f2937;
+    margin: 15px auto;
+    
+}
+
+.upper-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    gap: 200px;
+
+}
+
+.main-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.heading-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: normal;
+    width: 350px;
+
+}
+
+.links{
+    display: flex;
+    gap: 15px;
+    padding-right: 40px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+img{
+    width: 500px;
+    height: 200px;
+    border-radius: 25px;
+}
+.image-holder{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    background: #6d747d;
+    text-align: center;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+/* middle part till the sign up part */
+
+.heading{
+    text-align: center;
+}
+
+.middle-content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card{
+  width: 130px;
+    
+}
+
+.box{
+    height: 130px;
+    width: 130px;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+}
+
+/* Styling the quote */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+}
+
+p{
+    margin: 15px;
+}
