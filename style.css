@@ -121,5 +121,13 @@ img{
 }
 
 .line{
-    margin-top: 55px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    width: 700px;
+}
+
+.author{
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 20px;
 }
