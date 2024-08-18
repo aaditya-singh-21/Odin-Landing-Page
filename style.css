@@ -177,3 +177,17 @@ button{
     color: #f9faf8;
     font-weight: bold;
 }
+
+/* footer */
+
+.footer{
+    display: flex;
+    height: 60px;
+    width: 100vw;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
