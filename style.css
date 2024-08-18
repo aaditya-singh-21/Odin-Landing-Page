@@ -103,7 +103,7 @@ img{
 }
 
 .card{
-  width: 130px;
+  width: 140px;
     
 }
 
@@ -133,9 +133,12 @@ img{
 }
 
 .author{
+    
     margin-top: 0px;
     margin-bottom: 20px;
-    font-size: 20px;
+    margin-left: 500px;
+    font-size: 15px;
+    font-weight: 900;
 }
 
 /* Call to action part */
