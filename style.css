@@ -77,6 +77,12 @@ img{
     align-items: center;
     border-radius: 25px;
 }
+
+.upper-button{
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 5px 15px;
+}
 /* middle part till the sign up part */
 
 .heading{
@@ -102,8 +108,8 @@ img{
 }
 
 .box{
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     border: 2px solid #3882f6;
     border-radius: 15px;
 }
@@ -128,6 +134,46 @@ img{
 
 .author{
     margin-top: 0px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-size: 20px;
+}
+
+/* Call to action part */
+
+.action-title{
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.action-text{
+    color: #e5e7eb;
+    font-weight: normal;
+}
+.action{
+    display: flex;
+    width: 850px;
+    height: 100px;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    gap: 75px;
+
+}
+
+.sign-up{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+
+/* sign up buttons common part */
+
+button{
+    box-sizing: border-box;
+    color: #f9faf8;
+    font-weight: bold;
 }
